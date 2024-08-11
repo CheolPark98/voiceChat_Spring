@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/voiceChat.iml" filepath="$PROJECT_DIR$/.idea/modules/voiceChat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/voiceChat.main.iml" filepath="$PROJECT_DIR$/.idea/modules/voiceChat.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/voiceChat.test.iml" filepath="$PROJECT_DIR$/.idea/modules/voiceChat.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/voiceChat_Spring.iml" filepath="$PROJECT_DIR$/.idea/voiceChat_Spring.iml" />
+    </modules>
+  </component>
+</project>

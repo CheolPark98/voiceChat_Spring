@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: io.jsonwebtoken:jjwt-jackson:0.12.2" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="io.jsonwebtoken" artifactId="jjwt-jackson" version="0.12.2" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/voiceChat-main/caches/modules-2/files-2.1/io.jsonwebtoken/jjwt-jackson/0.12.2/5ba7e38addfa568805c51a120d955c7005055cdf/jjwt-jackson-0.12.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
