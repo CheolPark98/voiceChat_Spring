@@ -1,6 +1,6 @@
 package Alom.login.domain.user;
 
-import Alom.socialService.domain.Friend;
+
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotNull;
 import lombok.*;
@@ -56,14 +56,5 @@ public class User {
     @Column(nullable = true)
     private Set<String> userBlockList = new HashSet<>();
 
-    @OneToMany(mappedBy = "user",cascade = CascadeType.ALL,orphanRemoval = true)
-    private  Set<Friend> friends = new HashSet<>();
 
-    public void addFriend(User friend){
-        Friend friendship = new Friend(this,friend);
-        friends.add(friendship);
-    }
-    public void removeFriend(User friend){
-        friends.removeIf(f -> f.getFriend().equals(friend));
-    }
 }
