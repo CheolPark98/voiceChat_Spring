@@ -2,9 +2,11 @@ package Alom.voiceChat.service.chat;
 
 import Alom.voiceChat.dto.ChatRoomDto;
 import Alom.voiceChat.dto.ChatRoomMap;
+import Alom.voiceChat.dto.KurentoRoomDto;
 import Alom.voiceChat.utils.WebSocketMessage;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.kurento.client.KurentoClient;
 import org.springframework.stereotype.Service;
 import org.springframework.web.socket.WebSocketSession;
 
@@ -12,25 +14,22 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Optional;
 import java.util.UUID;
+import java.util.concurrent.ConcurrentHashMap;
 
 @Slf4j
 @RequiredArgsConstructor
 @Service
 public class RtcChatService {
 
-    public ChatRoomDto createChatRoom(String roomName, String roomPassword , boolean isPrivate, int maxUserCnt){
-        ChatRoomDto room = ChatRoomDto.builder()
-                .roomId(UUID.randomUUID().toString())
-                .roomName(roomName)
-                .roomPassword(roomPassword)
-                .isPrivate(isPrivate)
-                .userCount(0)
-                .maxUserCnt(maxUserCnt)
-                .build();
+    private final KurentoClient kurento;
 
-        room.setUserList(new HashMap<String, WebSocketSession>());
+    public KurentoRoomDto createChatRoom(String roomName, String roomPwd){
+        KurentoRoomDto room = new KurentoRoomDto();
+        String roomId = UUID.randomUUID().toString();
 
-        room.setChatType(ChatRoomDto.ChatType.RTC);
+        room.setRoomInfo(roomId, roomName, roomPwd,  kurento);
+
+        room.setUserList(new ConcurrentHashMap<String, WebSocketSession>());
 
         ChatRoomMap.getInstance().getChatRooms().put(room.getRoomId(), room);
         return room;

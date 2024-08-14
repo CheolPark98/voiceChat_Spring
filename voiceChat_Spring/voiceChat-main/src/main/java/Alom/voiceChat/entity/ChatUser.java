@@ -17,10 +17,12 @@ public class ChatUser {
 
     private String nickName;
 
-    private String email;
+    private boolean success;
+    private String userId;
 
-    private String password;
+//    private String email;
 
-    private String provider;
+    //private String password;
+
 
 }

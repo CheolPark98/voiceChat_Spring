@@ -2,11 +2,12 @@
   <library name="Gradle: org.springframework.integration:spring-integration-http:6.3.1" type="java-imported" external-system-id="GRADLE">
     <properties groupId="org.springframework.integration" artifactId="spring-integration-http" version="6.3.1" />
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/voiceChat-main/caches/modules-2/files-2.1/org.springframework.integration/spring-integration-http/6.3.1/20bb86fbac9a1eda226ee03e0fa9e86d5f9b6098/spring-integration-http-6.3.1.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.integration/spring-integration-http/6.3.1/20bb86fbac9a1eda226ee03e0fa9e86d5f9b6098/spring-integration-http-6.3.1.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
       <root url="jar://$PROJECT_DIR$/voiceChat-main/caches/modules-2/files-2.1/org.springframework.integration/spring-integration-http/6.3.1/88910f9bf0bd3ca7e273f4f11066e64fcc5b4552/spring-integration-http-6.3.1-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.integration/spring-integration-http/6.3.1/88910f9bf0bd3ca7e273f4f11066e64fcc5b4552/spring-integration-http-6.3.1-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

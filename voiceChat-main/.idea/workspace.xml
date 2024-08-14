@@ -5,13 +5,167 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b420eff8-c9c6-4207-be8c-d588b2a36910" name="변경" comment="">
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Alom/voiceChat/VoiceChatApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Alom/voiceChat/VoiceChatApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Alom/voiceChat/config/WebRtcConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Alom/voiceChat/dto/ChatRoomDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Alom/voiceChat/dto/ChatRoomDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Alom/voiceChat/service/ChatServiceMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Alom/voiceChat/utils/ChatRoomMap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__ch_qos_logback_logback_classic_1_5_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__ch_qos_logback_logback_classic_1_5_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__ch_qos_logback_logback_core_1_5_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__ch_qos_logback_logback_core_1_5_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__com_fasterxml_classmate_1_7_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__com_fasterxml_classmate_1_7_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_annotations_2_17_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_annotations_2_17_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_core_2_17_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_core_2_17_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_databind_2_17_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_databind_2_17_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_17_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_17_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_17_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_17_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__com_fasterxml_jackson_module_jackson_module_parameter_names_2_17_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__com_fasterxml_jackson_module_jackson_module_parameter_names_2_17_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__com_github_stephenc_jcip_jcip_annotations_1_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__com_github_stephenc_jcip_jcip_annotations_1_0_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__com_jayway_jsonpath_json_path_2_9_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__com_jayway_jsonpath_json_path_2_9_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__com_mysql_mysql_connector_j_8_3_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__com_mysql_mysql_connector_j_8_3_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__com_nimbusds_content_type_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__com_nimbusds_content_type_2_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__com_nimbusds_lang_tag_1_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__com_nimbusds_lang_tag_1_7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__com_nimbusds_nimbus_jose_jwt_9_37_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__com_nimbusds_nimbus_jose_jwt_9_37_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__com_nimbusds_oauth2_oidc_sdk_9_43_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__com_nimbusds_oauth2_oidc_sdk_9_43_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__com_sun_istack_istack_commons_runtime_4_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__com_sun_istack_istack_commons_runtime_4_1_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__com_zaxxer_HikariCP_5_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__com_zaxxer_HikariCP_5_1_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__io_jsonwebtoken_jjwt_api_0_12_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__io_jsonwebtoken_jjwt_api_0_12_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__io_jsonwebtoken_jjwt_impl_0_12_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__io_jsonwebtoken_jjwt_impl_0_12_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__io_jsonwebtoken_jjwt_jackson_0_12_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__io_jsonwebtoken_jjwt_jackson_0_12_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__io_micrometer_micrometer_commons_1_13_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__io_micrometer_micrometer_commons_1_13_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__io_micrometer_micrometer_observation_1_13_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__io_micrometer_micrometer_observation_1_13_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__io_projectreactor_reactor_core_3_6_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__io_projectreactor_reactor_core_3_6_7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__io_smallrye_jandex_3_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__io_smallrye_jandex_3_1_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__jakarta_activation_jakarta_activation_api_2_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__jakarta_activation_jakarta_activation_api_2_1_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__jakarta_annotation_jakarta_annotation_api_2_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__jakarta_annotation_jakarta_annotation_api_2_1_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__jakarta_inject_jakarta_inject_api_2_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__jakarta_inject_jakarta_inject_api_2_0_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__jakarta_persistence_jakarta_persistence_api_3_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__jakarta_persistence_jakarta_persistence_api_3_1_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__jakarta_transaction_jakarta_transaction_api_2_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__jakarta_transaction_jakarta_transaction_api_2_0_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__jakarta_validation_jakarta_validation_api_3_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__jakarta_validation_jakarta_validation_api_3_0_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__jakarta_xml_bind_jakarta_xml_bind_api_4_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__jakarta_xml_bind_jakarta_xml_bind_api_4_0_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_1_14_17.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_1_14_17.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_agent_1_14_17.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_agent_1_14_17.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__net_minidev_accessors_smart_2_5_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__net_minidev_accessors_smart_2_5_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__net_minidev_json_smart_2_5_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__net_minidev_json_smart_2_5_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_antlr_antlr4_runtime_4_13_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_antlr_antlr4_runtime_4_13_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_apache_logging_log4j_log4j_api_2_23_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_apache_logging_log4j_log4j_api_2_23_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_apache_logging_log4j_log4j_to_slf4j_2_23_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_apache_logging_log4j_log4j_to_slf4j_2_23_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_apache_tomcat_embed_tomcat_embed_core_10_1_25.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_apache_tomcat_embed_tomcat_embed_core_10_1_25.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_apache_tomcat_embed_tomcat_embed_el_10_1_25.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_apache_tomcat_embed_tomcat_embed_el_10_1_25.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_apache_tomcat_embed_tomcat_embed_websocket_10_1_25.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_apache_tomcat_embed_tomcat_embed_websocket_10_1_25.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_apiguardian_apiguardian_api_1_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_aspectj_aspectjweaver_1_9_22.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_aspectj_aspectjweaver_1_9_22.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_assertj_assertj_core_3_25_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_assertj_assertj_core_3_25_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_attoparser_attoparser_2_0_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_attoparser_attoparser_2_0_7_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_awaitility_awaitility_4_2_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_awaitility_awaitility_4_2_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_eclipse_angus_angus_activation_2_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_eclipse_angus_angus_activation_2_0_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_glassfish_jaxb_jaxb_core_4_0_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_glassfish_jaxb_jaxb_core_4_0_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_glassfish_jaxb_jaxb_runtime_4_0_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_glassfish_jaxb_jaxb_runtime_4_0_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_glassfish_jaxb_txw2_4_0_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_glassfish_jaxb_txw2_4_0_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_hamcrest_hamcrest_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_hamcrest_hamcrest_2_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_2_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_2_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_hibernate_common_hibernate_commons_annotations_6_0_6_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_hibernate_common_hibernate_commons_annotations_6_0_6_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_hibernate_orm_hibernate_core_6_5_2_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_hibernate_orm_hibernate_core_6_5_2_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_hibernate_validator_hibernate_validator_8_0_1_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_hibernate_validator_hibernate_validator_8_0_1_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_jboss_logging_jboss_logging_3_5_3_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_jboss_logging_jboss_logging_3_5_3_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_5_10_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_5_10_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_api_5_10_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_api_5_10_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_engine_5_10_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_engine_5_10_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_params_5_10_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_params_5_10_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_junit_platform_junit_platform_commons_1_10_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_junit_platform_junit_platform_commons_1_10_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_junit_platform_junit_platform_engine_1_10_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_junit_platform_junit_platform_engine_1_10_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_junit_platform_junit_platform_launcher_1_10_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_junit_platform_junit_platform_launcher_1_10_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_mockito_mockito_core_5_11_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_mockito_mockito_core_5_11_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_mockito_mockito_junit_jupiter_5_11_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_mockito_mockito_junit_jupiter_5_11_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_objenesis_objenesis_3_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_objenesis_objenesis_3_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_opentest4j_opentest4j_1_3_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_opentest4j_opentest4j_1_3_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_ow2_asm_asm_9_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_ow2_asm_asm_9_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_projectlombok_lombok_1_18_32.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_projectlombok_lombok_1_18_32.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_reactivestreams_reactive_streams_1_0_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_reactivestreams_reactive_streams_1_0_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_skyscreamer_jsonassert_1_5_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_skyscreamer_jsonassert_1_5_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_slf4j_jul_to_slf4j_2_0_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_slf4j_jul_to_slf4j_2_0_13.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_slf4j_slf4j_api_2_0_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_slf4j_slf4j_api_2_0_13.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_boot_spring_boot_3_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_boot_spring_boot_3_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_boot_spring_boot_autoconfigure_3_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_boot_spring_boot_autoconfigure_3_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_boot_spring_boot_devtools_3_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_boot_spring_boot_devtools_3_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_3_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_3_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_aop_3_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_aop_3_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_data_jpa_3_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_data_jpa_3_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_integration_3_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_integration_3_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_jdbc_3_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_jdbc_3_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_json_3_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_json_3_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_logging_3_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_logging_3_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_oauth2_client_3_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_oauth2_client_3_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_security_3_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_security_3_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_test_3_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_test_3_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_thymeleaf_3_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_thymeleaf_3_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_tomcat_3_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_tomcat_3_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_validation_3_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_validation_3_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_web_3_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_web_3_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_websocket_3_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_websocket_3_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_boot_spring_boot_test_3_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_boot_spring_boot_test_3_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_boot_spring_boot_test_autoconfigure_3_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_boot_spring_boot_test_autoconfigure_3_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_data_spring_data_commons_3_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_data_spring_data_commons_3_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_data_spring_data_jpa_3_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_data_spring_data_jpa_3_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_integration_spring_integration_core_6_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_integration_spring_integration_core_6_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_integration_spring_integration_http_6_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_integration_spring_integration_http_6_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_integration_spring_integration_stomp_6_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_integration_spring_integration_stomp_6_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_integration_spring_integration_test_6_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_integration_spring_integration_test_6_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_integration_spring_integration_test_support_6_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_integration_spring_integration_test_support_6_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_integration_spring_integration_websocket_6_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_integration_spring_integration_websocket_6_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_retry_spring_retry_2_0_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_retry_spring_retry_2_0_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_security_spring_security_config_6_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_security_spring_security_config_6_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_security_spring_security_core_6_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_security_spring_security_core_6_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_security_spring_security_crypto_6_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_security_spring_security_crypto_6_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_security_spring_security_oauth2_client_6_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_security_spring_security_oauth2_client_6_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_security_spring_security_oauth2_core_6_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_security_spring_security_oauth2_core_6_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_security_spring_security_oauth2_jose_6_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_security_spring_security_oauth2_jose_6_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_security_spring_security_test_6_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_security_spring_security_test_6_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_security_spring_security_web_6_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_security_spring_security_web_6_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_spring_aop_6_1_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_spring_aop_6_1_10.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_spring_aspects_6_1_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_spring_aspects_6_1_10.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_spring_beans_6_1_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_spring_beans_6_1_10.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_spring_context_6_1_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_spring_context_6_1_10.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_spring_core_6_1_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_spring_core_6_1_10.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_spring_expression_6_1_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_spring_expression_6_1_10.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_spring_jcl_6_1_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_spring_jcl_6_1_10.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_spring_jdbc_6_1_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_spring_jdbc_6_1_10.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_spring_messaging_6_1_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_spring_messaging_6_1_10.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_spring_orm_6_1_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_spring_orm_6_1_10.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_spring_test_6_1_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_spring_test_6_1_10.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_spring_tx_6_1_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_spring_tx_6_1_10.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_spring_web_6_1_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_spring_web_6_1_10.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_spring_webmvc_6_1_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_spring_webmvc_6_1_10.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_spring_websocket_6_1_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_springframework_spring_websocket_6_1_10.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_thymeleaf_extras_thymeleaf_extras_springsecurity6_3_1_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_thymeleaf_extras_thymeleaf_extras_springsecurity6_3_1_2_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_thymeleaf_thymeleaf_3_1_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_thymeleaf_thymeleaf_3_1_2_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_thymeleaf_thymeleaf_spring6_3_1_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_thymeleaf_thymeleaf_spring6_3_1_2_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_unbescape_unbescape_1_1_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_unbescape_unbescape_1_1_6_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_xmlunit_xmlunit_core_2_9_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_xmlunit_xmlunit_core_2_9_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_yaml_snakeyaml_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/libraries/Gradle__org_yaml_snakeyaml_2_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/modules/voiceChat.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/modules/voiceChat.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/.idea/modules/voiceChat.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/.idea/modules/voiceChat.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/voiceChat-main/caches/modules-2/files-2.1/org.infinispan/infinispan-build-configuration-parent/15.0.5.Final/f0690834c14e3447eaf360bb5b98afc50fcc1915/infinispan-build-configuration-parent-15.0.5.Final.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/voiceChat-main/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-oauth2-client/3.3.1/be7f0923e64ebdbbbade28d3f52a45c657070112/spring-boot-starter-oauth2-client-3.3.1.module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/voiceChat-main/caches/modules-2/files-2.1/org.springframework.integration/spring-integration-test-support/6.3.1/73865b48078db864daef082cc2bc676e43fb5385/spring-integration-test-support-6.3.1.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/voiceChat-main/caches/modules-2/files-2.1/org.springframework.integration/spring-integration-test-support/6.3.1/dbc06107c4d055113f25a23a3105ebb07208dbcb/spring-integration-test-support-6.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/voiceChat-main/caches/modules-2/files-2.1/org.thymeleaf.extras/thymeleaf-extras-springsecurity6/3.1.2.RELEASE/574c188eb147191e2f162419e9fc780fcf3256d7/thymeleaf-extras-springsecurity6-3.1.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/voiceChat-main/caches/modules-2/files-2.1/org.thymeleaf.extras/thymeleaf-extras-springsecurity6/3.1.2.RELEASE/d8e1e4f3cde609316f3231f4e9ae1eda46227eb3/thymeleaf-extras-springsecurity6-3.1.2.RELEASE.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/voiceChat-main/src/main/java/Alom/voiceChat/controller/ChatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/voiceChat-main/src/main/java/Alom/voiceChat/controller/ChatController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/voiceChat-main/src/main/java/Alom/voiceChat/controller/ChatRoomController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/voiceChat-main/src/main/java/Alom/voiceChat/controller/ChatRoomController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/voiceChat-main/src/main/java/Alom/voiceChat/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/voiceChat-main/src/main/java/Alom/voiceChat/controller/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/voiceChat-main/src/main/java/Alom/voiceChat/controller/SignalHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/voiceChat-main/src/main/java/Alom/voiceChat/controller/SignalHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/voiceChat-main/src/main/java/Alom/voiceChat/dto/ChatDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/voiceChat-main/src/main/java/Alom/voiceChat/dto/ChatDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/voiceChat-main/src/main/java/Alom/voiceChat/dto/ChatRoomDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/voiceChat-main/src/main/java/Alom/voiceChat/dto/ChatRoomDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/voiceChat-main/src/main/java/Alom/voiceChat/dto/KurentoRoomDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/voiceChat-main/src/main/java/Alom/voiceChat/dto/KurentoRoomDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/voiceChat-main/src/main/java/Alom/voiceChat/entity/ChatUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/voiceChat-main/src/main/java/Alom/voiceChat/entity/ChatUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/voiceChat-main/src/main/java/Alom/voiceChat/repository/ChatUserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/voiceChat-main/src/main/java/Alom/voiceChat/repository/ChatUserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/voiceChat-main/src/main/java/Alom/voiceChat/rtc/KurentoHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/voiceChat-main/src/main/java/Alom/voiceChat/rtc/KurentoHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/voiceChat-main/src/main/java/Alom/voiceChat/service/admin/AdminServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/voiceChat-main/src/main/java/Alom/voiceChat/service/admin/AdminServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/voiceChat-main/src/main/java/Alom/voiceChat/service/chat/ChatServiceMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/voiceChat-main/src/main/java/Alom/voiceChat/service/chat/ChatServiceMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/voiceChat-main/src/main/java/Alom/voiceChat/service/chat/RtcChatService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/voiceChat-main/src/main/java/Alom/voiceChat/service/chat/RtcChatService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../voiceChat_Spring/voiceChat-main/src/main/java/Alom/voiceChat/utils/JwtUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../voiceChat_Spring/voiceChat-main/src/main/java/Alom/voiceChat/utils/JwtUtil.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,29 +218,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "ToolWindow실행.ShowToolbar": "false",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/82106/Documents/GitHub/voiceChat_Spring/voiceChat-main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "프로젝트",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
-    "spring.configuration.checksum": "f5b468c9f54c601cad02ef2a97fa351c"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;ToolWindow실행.ShowToolbar&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/82106/Documents/GitHub/voiceChat_Spring/voiceChat-main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;프로젝트&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;f5b468c9f54c601cad02ef2a97fa351c&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Spring Boot.VoiceChatApplication (1)">
     <configuration name="VoiceChatApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="voiceChat.main" />
@@ -119,7 +273,8 @@
       <workItem from="1721606789235" duration="31921000" />
       <workItem from="1722236336842" duration="11132000" />
       <workItem from="1722471951981" duration="76507000" />
-      <workItem from="1723535117317" duration="3273000" />
+      <workItem from="1723535117317" duration="4354000" />
+      <workItem from="1723600441299" duration="422000" />
     </task>
     <servers />
   </component>
@@ -132,6 +287,31 @@
         <entry key="MAIN">
           <value>
             <State />
+          </value>
+        </entry>
+        <entry key="a200fb4e-c2e4-4e36-a928-be933e140ebc">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:C:/Users/82106/Documents/GitHub/voiceChat_Spring/voiceChat-main/src" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
         <entry key="e4b64c79-ab55-4425-b2b6-b3878ea01fbe">
@@ -163,6 +343,7 @@
     </option>
     <option name="OPEN_GENERIC_TABS">
       <map>
+        <entry key="a200fb4e-c2e4-4e36-a928-be933e140ebc" value="TOOL_WINDOW" />
         <entry key="e4b64c79-ab55-4425-b2b6-b3878ea01fbe" value="TOOL_WINDOW" />
       </map>
     </option>

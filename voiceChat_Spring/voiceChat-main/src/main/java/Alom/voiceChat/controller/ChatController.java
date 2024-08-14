@@ -1,6 +1,5 @@
 package Alom.voiceChat.controller;
 
-import Alom.voiceChat.repository.ChatRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,10 +13,10 @@ import org.springframework.stereotype.Controller;
 @Controller
 public class ChatController {
     private final SimpMessageSendingOperations template;
-
-    @Autowired
-    ChatRepository repository;
-
-    @MessageMapping("/chat/enterUser")
-    public void enterUser(@Payload)
+//
+//    @Autowired
+//    ChatRepository repository;
+//
+//    @MessageMapping("/chat/enterUser")
+//    public void enterUser(@Payload)
 }
