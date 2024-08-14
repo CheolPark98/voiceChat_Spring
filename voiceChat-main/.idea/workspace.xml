@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b420eff8-c9c6-4207-be8c-d588b2a36910" name="변경" comment="">
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Alom/voiceChat/VoiceChatApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Alom/voiceChat/VoiceChatApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Alom/voiceChat/config/WebRtcConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Alom/voiceChat/dto/ChatRoomDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Alom/voiceChat/dto/ChatRoomDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Alom/voiceChat/service/ChatServiceMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Alom/voiceChat/utils/ChatRoomMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="voiceChat" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2jAlXa8VfCvHv6LycaD2fBtF40g" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ToolWindow실행.ShowToolbar": "false",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/82106/Documents/GitHub/voiceChat_Spring/voiceChat-main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "프로젝트",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "spring.configuration.checksum": "f5b468c9f54c601cad02ef2a97fa351c"
+  }
+}]]></component>
+  <component name="RunManager" selected="Spring Boot.VoiceChatApplication (1)">
+    <configuration name="VoiceChatApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="voiceChat.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="Alom.voiceChat.VoiceChatApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VoiceChatApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="voiceChat.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="Arom.voiceChat.VoiceChatApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="b420eff8-c9c6-4207-be8c-d588b2a36910" name="변경" comment="" />
+      <created>1720837803770</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1720837803770</updated>
+      <workItem from="1720837805023" duration="418000" />
+      <workItem from="1720838305432" duration="2789000" />
+      <workItem from="1720931555371" duration="451000" />
+      <workItem from="1720932799076" duration="61976000" />
+      <workItem from="1721606349951" duration="419000" />
+      <workItem from="1721606789235" duration="31921000" />
+      <workItem from="1722236336842" duration="11132000" />
+      <workItem from="1722471951981" duration="76507000" />
+      <workItem from="1723535117317" duration="3273000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+        <entry key="e4b64c79-ab55-4425-b2b6-b3878ea01fbe">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:C:/Users/82106/Documents/GitHub/voiceChat_Spring/voiceChat-main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="e4b64c79-ab55-4425-b2b6-b3878ea01fbe" value="TOOL_WINDOW" />
+      </map>
+    </option>
+  </component>
+</project>

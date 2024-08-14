@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>메인 화면</title>
+    <style>
+        /* 팝업 스타일 */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgb(0,0,0);
+            background-color: rgba(0,0,0,0.4);
+            padding-top: 60px;
+        }
+
+        .modal-content {
+            background-color: #fefefe;
+            margin: 5% auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%;
+        }
+
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+<h1>메인 화면</h1>
+<div id="user-info"></div>
+<div id="auth-buttons">
+    <button id="login-btn">로그인</button>
+    <button id="signup-btn">회원가입</button>
+</div>
+<button id="create-room-btn" style="display: none;">방 생성</button>
+<div id="room-list">
+    <h2>방 목록</h2>
+    <ul id="rooms">
+        <!-- 방 목록이 여기에 표시됩니다 -->
+    </ul>
+</div>
+
+<!-- 로그인 팝업 폼 -->
+<div id="loginModal" class="modal">
+    <div class="modal-content">
+        <span class="close" id="closeLogin">&times;</span>
+        <h2>로그인</h2>
+        <form id="login-form">
+            <label for="loginId">아이디:</label>
+            <input type="text" id="loginId" name="loginId" required><br><br>
+<!--            <label for="loginPassword">비밀번호:</label>-->
+<!--            <input type="password" id="loginPassword" name="loginPassword" required><br><br>-->
+            <button type="submit">로그인</button>
+        </form>
+    </div>
+</div>
+
+<!-- 회원가입 팝업 폼 -->
+<div id="signupModal" class="modal">
+    <div class="modal-content">
+        <span class="close" id="closeSignup">&times;</span>
+        <h2>회원가입</h2>
+        <form id="signup-form">
+            <label for="signupId">아이디:</label>
+            <input type="text" id="signupId" name="signupId" required><br><br>
+<!--            <label for="signupPassword">비밀번호:</label>-->
+<!--            <input type="password" id="signupPassword" name="signupPassword" required><br><br>-->
+            <label for="signupNickname">닉네임:</label>
+            <input type="text" id="signupNickname" name="signupNickname" required><br><br>
+            <button type="submit">회원가입</button>
+        </form>
+    </div>
+</div>
+
+<!-- 방 생성 팝업 폼 -->
+<div id="createRoomModal" class="modal">
+    <div class="modal-content">
+        <span class="close" id="closeCreateRoom">&times;</span>
+        <h2>방 생성</h2>
+        <form id="create-room-form">
+            <label for="roomName">방 이름:</label>
+            <input type="text" id="roomName" name="roomName" required><br><br>
+<!--            <label for="roomPassword">비밀번호:</label>-->
+<!--            <input type="password" id="roomPassword" name="roomPassword" required><br><br>-->
+            <button type="submit">생성</button>
+        </form>
+    </div>
+</div>
+
+<script>
+    // 팝업 열기
+    var loginModal = document.getElementById("loginModal");
+    var signupModal = document.getElementById("signupModal");
+    var createRoomModal = document.getElementById("createRoomModal");
+
+    var loginBtn = document.getElementById("login-btn");
+    var signupBtn = document.getElementById("signup-btn");
+    var createRoomBtn = document.getElementById("create-room-btn");
+
+    var closeLogin = document.getElementById("closeLogin");
+    var closeSignup = document.getElementById("closeSignup");
+    var closeCreateRoom = document.getElementById("closeCreateRoom");
+
+    loginBtn.onclick = function() {
+        loginModal.style.display = "block";
+    }
+
+    signupBtn.onclick = function() {
+        signupModal.style.display = "block";
+    }
+
+    createRoomBtn.onclick = function() {
+        createRoomModal.style.display = "block";
+    }
+
+    closeLogin.onclick = function() {
+        loginModal.style.display = "none";
+    }
+
+    closeSignup.onclick = function() {
+        signupModal.style.display = "none";
+    }
+
+    closeCreateRoom.onclick = function() {
+        createRoomModal.style.display = "none";
+    }
+
+    window.onclick = function(event) {
+        if (event.target == loginModal) {
+            loginModal.style.display = "none";
+        }
+        if (event.target == signupModal) {
+            signupModal.style.display = "none";
+        }
+        if (event.target == createRoomModal) {
+            createRoomModal.style.display = "none";
+        }
+    }
+
+    // 회원가입 폼 제출
+    document.getElementById('signup-form').addEventListener('submit', function(event) {
+        event.preventDefault();
+        var signupId = document.getElementById('signupId').value;
+        //var signupPassword = document.getElementById('signupPassword').value;
+        var signupNickname = document.getElementById('signupNickname').value;
+        var chatUser ={
+            userId: signupId,
+          //  password: signupPassword,
+            nickName: signupNickname
+        };
+        fetch('/user/signup', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(chatUser)
+        })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    alert('회원가입이 완료되었습니다.');
+                    signupModal.style.display = "none";
+                } else {
+                    alert('회원가입에 실패했습니다.');
+                }
+            });
+    });
+
+    // 로그인 폼 제출
+    document.getElementById('login-form').addEventListener('submit', function(event) {
+        event.preventDefault();
+        var loginId = document.getElementById('loginId').value;
+        //var loginPassword = document.getElementById('loginPassword').value;
+
+        var chatUser={
+            userId:loginId,
+          //  password : loginPassword,
+            nickName: null
+        };
+        fetch('/user/login', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(chatUser)
+        })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    document.getElementById('user-info').innerText = `닉네임: ${data.nickName}`;
+                    loginModal.style.display = "none";
+                    document.getElementById('auth-buttons').style.display = "none";
+                    document.getElementById('create-room-btn').style.display = "block";
+                } else {
+                    alert('로그인에 실패했습니다.');
+                }
+            });
+    });
+
+    // 방 생성 폼 제출
+    document.getElementById('create-room-form').addEventListener('submit', function(event) {
+        event.preventDefault();
+        var roomName = document.getElementById('roomName').value;
+        //var roomPassword = document.getElementById('roomPassword').value;
+
+        var chatRoom={
+            name:roomName
+            //password:roomPassword
+        };
+
+        fetch('/rooms/create', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(chatRoom)
+        })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    //window.location.href = `/rooms/${roomName}?password=${roomPassword}`;                    window.location.href = `/rooms/${roomName}//?password=${roomPassword}`;
+                    window.location.href = `/rooms/${roomName}`;
+                } else {
+                    alert('방 생성에 실패했습니다.');
+                }
+            });
+    });
+
+    // 방 목록 가져오기
+    function fetchRooms() {
+        fetch('/roomList')
+            .then(response => response.json())
+            .then(data => {
+                var roomList = document.getElementById('rooms');
+                roomList.innerHTML = '';
+                data.forEach(room => {
+                    var li = document.createElement('li');
+                    li.innerHTML = `<a href="/rooms/${room}">${room}</a>`;
+                    roomList.appendChild(li);
+                });
+            });
+    }
+
+    // 초기 방 목록 가져오기
+    fetchRooms();
+</script>
+</body>
+</html>
