@@ -1,6 +1,7 @@
 package Alom.voiceChat.controller;
 
 import Alom.voiceChat.dto.ChatRoomDto;
+import Alom.voiceChat.entity.ChatRoom;
 import Alom.voiceChat.service.chat.ChatServiceMain;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -23,14 +24,11 @@ public class ChatRoomController {
     // 채팅방 생성후 초기화면으로
     @PostMapping("/chat/createroom")
     public String createRoom(@RequestParam("roomName") String name,
-                             @RequestParam("roomPassword") String roomPassword,
-                             @RequestParam("isPrivate") String isPrivate,
-                             @RequestParam(value = "maxUserCnt",defaultValue = "2") String maxUserCnt,
-                             @RequestParam("chatType") String chatType,
+                             @RequestParam("roomPwd") String roomPwd,
                              RedirectAttributes rttr){
-        ChatRoomDto room;
-        // 파라미터 : 방이름, 비밀번호, 프라이빗 여부, 인원
-        room = chatServiceMain.createChatRoom(name, roomPassword, Boolean.parseBoolean(isPrivate), Integer.parseInt(maxUserCnt), chatType);
+
+        // 파라미터 : 방이름, 비밀번호, 프라이빗 여부
+        ChatRoomDto room = chatServiceMain.createChatRoom(name, roomPwd);
 
         log.info("CREATE Chat Room [{}]",room);
 
@@ -39,12 +37,12 @@ public class ChatRoomController {
         return "redirect:/";
     }
 
-    @GetMapping("/chat/room")
-    public String roomDetail(Model model, String roomId, @AuthenticationPrincipal P){
-        log.info("roomId {}",roomId);
-
-        if (principalDetails != null){
-            model.addAttribute("user", principalDetails.)
-        }
-    }
+//    @GetMapping("/chat/room")
+//    public String roomDetail(Model model, String roomId, @AuthenticationPrincipal P){
+//        log.info("roomId {}",roomId);
+//
+//        if (principalDetails != null){
+//            model.addAttribute("user", principalDetails.)
+//        }
+//    }
 }

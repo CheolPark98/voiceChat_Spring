@@ -29,7 +29,7 @@ import java.util.concurrent.ConcurrentMap;
 @Getter
 @Setter
 @NoArgsConstructor
-@RequiredArgsConstructor
+
 public class KurentoRoomDto extends ChatRoomDto implements Closeable {
 
     private final Logger log = LoggerFactory.getLogger(KurentoRoomDto.class);
@@ -48,15 +48,11 @@ public class KurentoRoomDto extends ChatRoomDto implements Closeable {
 
     private ConcurrentMap<String, KurentoUserSession> participants;
 
-    public void setRoomInfo(String roomId, String roomName, String roomPassword,boolean isPrivate, int userCnt ,
-                            int maxUserCnt,ChatType chatType,KurentoClient kurento){
+    public void setRoomInfo(String roomId, String roomName, String roomPassword,
+                            KurentoClient kurento){
         this.roomId=roomId;
         this.roomName=roomName;
         this.roomPassword=roomPassword;
-        this.isPrivate=isPrivate;
-        this.userCnt=userCnt;
-        this.maxUserCnt=maxUserCnt;
-        this.chatType=chatType;
         this.kurento=kurento;
         this.participants=(ConcurrentMap<String, KurentoUserSession>) this.userList;
     }

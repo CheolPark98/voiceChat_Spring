@@ -5,16 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3013418b-2d21-426b-accb-3df031a21f71" name="변경" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/voiceChat_Spring.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/voiceChat-main/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/voiceChat-main/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/voiceChat-main/src/main/java/Alom/voiceChat/config/WebRtcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/voiceChat-main/src/main/java/Alom/voiceChat/config/WebRtcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/voiceChat-main/src/main/java/Alom/voiceChat/VoiceChatApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/voiceChat-main/src/main/java/Alom/voiceChat/VoiceChatApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/voiceChat-main/src/main/java/Alom/voiceChat/batch/RoomBatchJob.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/voiceChat-main/src/main/java/Alom/voiceChat/config/MinioConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/voiceChat-main/src/main/java/Alom/voiceChat/config/WebRtcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/voiceChat-main/src/main/java/Alom/voiceChat/config/WebSocketConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/voiceChat-main/src/main/java/Alom/voiceChat/controller/ChatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/voiceChat-main/src/main/java/Alom/voiceChat/controller/ChatController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/voiceChat-main/src/main/java/Alom/voiceChat/controller/ChatRoomController.java" beforeDir="false" afterPath="$PROJECT_DIR$/voiceChat-main/src/main/java/Alom/voiceChat/controller/ChatRoomController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/voiceChat-main/src/main/java/Alom/voiceChat/controller/FileController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/voiceChat-main/src/main/java/Alom/voiceChat/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/voiceChat-main/src/main/java/Alom/voiceChat/controller/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/voiceChat-main/src/main/java/Alom/voiceChat/controller/SignalHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/voiceChat-main/src/main/java/Alom/voiceChat/controller/SignalHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/voiceChat-main/src/main/java/Alom/voiceChat/dto/ChatDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/voiceChat-main/src/main/java/Alom/voiceChat/dto/ChatDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/voiceChat-main/src/main/java/Alom/voiceChat/dto/ChatRoomDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/voiceChat-main/src/main/java/Alom/voiceChat/dto/ChatRoomDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/voiceChat-main/src/main/java/Alom/voiceChat/service/ChatServiceMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/voiceChat-main/src/main/java/Alom/voiceChat/service/chat/ChatServiceMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/voiceChat-main/src/main/java/Alom/voiceChat/utils/ChatRoomMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/voiceChat-main/src/main/java/Alom/voiceChat/dto/ChatRoomMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/voiceChat-main/src/main/java/Alom/voiceChat/dto/DailyInfoDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/voiceChat-main/src/main/java/Alom/voiceChat/dto/FileDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/voiceChat-main/src/main/java/Alom/voiceChat/dto/KurentoRoomDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/voiceChat-main/src/main/java/Alom/voiceChat/dto/KurentoRoomDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/voiceChat-main/src/main/java/Alom/voiceChat/entity/ChatUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/voiceChat-main/src/main/java/Alom/voiceChat/entity/ChatUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/voiceChat-main/src/main/java/Alom/voiceChat/entity/DailyInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/voiceChat-main/src/main/java/Alom/voiceChat/mapper/DailyInfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/voiceChat-main/src/main/java/Alom/voiceChat/mapper/GenericMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/voiceChat-main/src/main/java/Alom/voiceChat/repository/ChatUserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/voiceChat-main/src/main/java/Alom/voiceChat/repository/ChatUserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/voiceChat-main/src/main/java/Alom/voiceChat/repository/DailyInfoRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/voiceChat-main/src/main/java/Alom/voiceChat/rtc/KurentoHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/voiceChat-main/src/main/java/Alom/voiceChat/rtc/KurentoHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/voiceChat-main/src/main/java/Alom/voiceChat/service/admin/AdminServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/voiceChat-main/src/main/java/Alom/voiceChat/service/admin/AdminServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/voiceChat-main/src/main/java/Alom/voiceChat/service/analysis/AnalysisService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/voiceChat-main/src/main/java/Alom/voiceChat/service/analysis/AnalysisServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/voiceChat-main/src/main/java/Alom/voiceChat/service/chat/ChatServiceMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/voiceChat-main/src/main/java/Alom/voiceChat/service/chat/ChatServiceMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/voiceChat-main/src/main/java/Alom/voiceChat/service/chat/MsgChatService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/voiceChat-main/src/main/java/Alom/voiceChat/service/chat/RtcChatService.java" beforeDir="false" afterPath="$PROJECT_DIR$/voiceChat-main/src/main/java/Alom/voiceChat/service/chat/RtcChatService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/voiceChat-main/src/main/java/Alom/voiceChat/service/file/FileService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/voiceChat-main/src/main/java/Alom/voiceChat/service/file/MinioFileServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/voiceChat-main/src/main/java/Alom/voiceChat/service/monitoring/ClientCheckService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/voiceChat-main/src/main/java/Alom/voiceChat/service/monitoring/ClientCheckServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/voiceChat-main/src/main/java/Alom/voiceChat/utils/JwtUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/voiceChat-main/src/main/java/Alom/voiceChat/utils/JwtUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/voiceChat-main/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/voiceChat-main/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +102,7 @@
       <workItem from="1720932701110" duration="59000" />
       <workItem from="1720932772066" duration="400000" />
       <workItem from="1721606310521" duration="37000" />
+      <workItem from="1723535053917" duration="64000" />
     </task>
     <servers />
   </component>

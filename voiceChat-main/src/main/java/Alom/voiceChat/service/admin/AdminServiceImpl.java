@@ -4,7 +4,7 @@ import Alom.voiceChat.dto.ChatRoomDto;
 import Alom.voiceChat.dto.ChatRoomMap;
 import Alom.voiceChat.dto.KurentoRoomDto;
 import Alom.voiceChat.service.chat.KurentoManager;
-import Alom.voiceChat.service.file.FileService;
+
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 import lombok.RequiredArgsConstructor;
@@ -20,7 +20,6 @@ import java.util.concurrent.ConcurrentMap;
 public class AdminServiceImpl implements AdminService{
 
     private final KurentoManager kurentoManager;
-    private final FileService fileService;
     @Override
     public Map<String, Object> getAllRooms() {
 
@@ -34,10 +33,6 @@ public class AdminServiceImpl implements AdminService{
                     joRoom.addProperty("id", room.getRoomId());
                     joRoom.addProperty("name", room.getRoomName());
                     joRoom.addProperty("password", room.getRoomPassword());
-                    joRoom.addProperty("isPrivate", room.isPrivate());
-                    joRoom.addProperty("type", room.getChatType().toString());
-                    joRoom.addProperty("count", room.getUserCount());
-
                     joRooms.add(joRoom);
                 });
         result.put("roomList", joRooms);
@@ -54,7 +49,6 @@ public class AdminServiceImpl implements AdminService{
             return "success del chatroom";
         }
 
-        fileService.deleteFileDir(roomId);
 
         return "no such room exist";
     }

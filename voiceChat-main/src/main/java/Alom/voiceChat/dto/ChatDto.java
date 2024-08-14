@@ -20,6 +20,5 @@ public class ChatDto {
     private String message;
     private String time;
 
-    private FileDto file;
 
 }

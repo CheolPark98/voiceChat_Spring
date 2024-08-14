@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Chat Room</title>
+</head>
+<body>
+<h1>Chat Room</h1>
+<audio id="localAudio" autoplay></audio>
+<audio id="remoteAudio" autoplay></audio>
+<script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
+<script>
+  const localAudio = document.getElementById('localAudio');
+  const remoteAudio = document.getElementById('remoteAudio');
+
+  const servers = {
+    iceServers: [{ urls: 'stun:stun.l.google.com:19302' }]
+  };
+  let peerConnection;
+  let sessionId;
+
+  function start() {
+    peerConnection = new RTCPeerConnection(servers);
+
+    navigator.mediaDevices.getUserMedia({ audio: true }).then(stream => {
+      localAudio.srcObject = stream;
+      stream.getTracks().forEach(track => peerConnection.addTrack(track, stream));
+    }).catch(error => console.error('Error accessing media devices.', error));
+
+    peerConnection.ontrack = event => {
+      remoteAudio.srcObject = event.streams[0];
+    };
+
+    peerConnection.onicecandidate = event => {
+      if (event.candidate) {
+        sendIceCandidate(event.candidate);
+      }
+    };
+
+    peerConnection.createOffer().then(offer => {
+      return peerConnection.setLocalDescription(offer);
+    }).then(() => {
+      sendSdpOffer(peerConnection.localDescription.sdp);
+    }).catch(error => console.error('Error creating offer', error));
+  }
+
+  function sendSdpOffer(sdpOffer) {
+    fetch('/api/kurento/start', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({ sdpOffer })
+    }).then(response => response.json())
+            .then(data => {
+              sessionId = data.sessionId;
+              return peerConnection.setRemoteDescription(new RTCSessionDescription({
+                type: 'answer',
+                sdp: data.sdpAnswer
+              }));
+            }).catch(error => console.error('Error sending SDP offer', error));
+  }
+
+  function sendIceCandidate(candidate) {
+    fetch(`/api/kurento/onIceCandidate/${sessionId}`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        candidate: candidate.candidate,
+        sdpMid: candidate.sdpMid,
+        sdpMLineIndex: candidate.sdpMLineIndex
+      })
+    }).catch(error => console.error('Error sending ICE candidate', error));
+  }
+
+  window.onload = start;
+  window.onbeforeunload = () => {
+    if (sessionId) {
+      fetch(`/api/kurento/stop/${sessionId}`, { method: 'POST' })
+              .catch(error => console.error('Error stopping session', error));
+    }
+  };
+
+  window.onload = start;
+</script>
+</body>
+</html>

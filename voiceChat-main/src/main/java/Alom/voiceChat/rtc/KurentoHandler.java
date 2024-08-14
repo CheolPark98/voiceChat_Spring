@@ -18,6 +18,7 @@ import java.io.IOException;
 import java.util.Objects;
 
 @RequiredArgsConstructor
+
 public class KurentoHandler extends TextWebSocketHandler {
    private static final Logger log = LoggerFactory.getLogger(KurentoHandler.class);
 
@@ -76,7 +77,7 @@ public class KurentoHandler extends TextWebSocketHandler {
 
         room.leave(user);
 
-        room.setUserCount(room.getUserCount()-1);
+
     }
 
     private void connectException(KurentoUserSession user,Exception e) throws IOException{
